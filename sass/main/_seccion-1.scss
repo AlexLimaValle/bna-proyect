@@ -1,0 +1,75 @@
+.sliders{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .sliders__move{
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+        position:relative;
+        .sliders__action{
+            width: 300%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            // transform: translateX(-600px);
+            transition: all .3s;
+            .sliders__slide{
+                width: 100%;
+                height: 100%;
+                background:linear-gradient(to bottom,#23aad3ad 100%,transparent),url(../../img/slider-1.jpg);
+                background-size: cover;
+            }
+            .sliders__slide--img-1{
+                width: 100%;
+                height: 100%;
+                background:linear-gradient(to bottom,#23aad3ad 40%,transparent),url(../../img/slider-2.jpg);
+                background-size: cover;
+            }
+            .sliders__slide--img-2{
+                width: 100%;
+                height: 100%;
+                background:linear-gradient(to right,#ece5e5 45%,transparent),url(../../img/slider-3.jpg);
+                background-size: cover;
+            }
+        }
+        .sliders__controls{
+            position: absolute;
+            width: 100%;
+            height: 30%;
+            z-index: 10;
+            top: 35%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 1.7rem;
+            color: #fff;
+            .sliders__left{
+                width: 10%;
+                height: 100%;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                background-color: #bbb3b3d0;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .sliders__right{
+                width: 10%;
+                height: 100%;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                background-color: #bbb3b3d0;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+            }   
+        }
+    }
+}

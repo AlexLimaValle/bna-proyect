@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Tienda BNA</title>
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="shortcut icon" href="./img/icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__navBar">
+            <p class="header__navBar-p"><i class="fa-solid fa-bars header__navBar-i"></i></p>
+        </div>
+        <div class="header__img-Icon">
+            <img src="./img/logo.jpg" alt="logo de BNA" class="header__img">
+        </div>
+        <div class="header__cart-shopping">
+            <p class="header__cart-p"><i class="fa-solid fa-cart-shopping"></i></p>
+        </div>
+        <nav class="nav">
+            <ul class="nav__ul nav__ul--scroll">
+                <li class="nav__li"><a href="#" class="nav__a">SELECCIONADOS SIN INTERÉS</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">ENVÍO GRATIS</a></li>
+                <li class="nav__li">
+                    <p class="nav__p">TECNOLOGIA Y EDUCACIÓN</p>
+                    <ul class="nav__ul-ul nav__ul--overflow">
+                        <li class="nav__li-li">
+                            <p class="nav__p">TELEVISION<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SOPORTES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">Tv LED Y SMART TV</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS DE TVs</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ANTENAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">AUDIO Y VIDEO<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PARLANTES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">AURICULARES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">RADIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">CAMARAS<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAMARAS DIGITALES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAMARAS DE SEGURIDAD</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">WEBCAMS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">COMPUTACION<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">NOTEBOOK</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">TABLET</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ALL IN ONE Y PC DE ESCRITORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">IMPRESORAS, SCANNERS Y ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CABLES Y ADAPTADORES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PERIFERICOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CONECTIVIDAD</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ALMACENAMIENTO</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MONITORES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">COMPONENTES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">CELULARES Y TELEFONIA<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CELULARES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">TELEFONOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SMARTWATCH</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">CONSOLAS Y VIDEO JUEGOS<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CONSOLAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">VIDEOJUEGOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">MOCHILAS<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MOCHILAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MOCHILAS INFANTILES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">PRODUCTOS INFANTILES<i class="fa-sharp fa-solid fa-chevron-down nav__down"></i><i class="fa-sharp fa-solid fa-chevron-up nav__up"></i></p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">JUEGOS Y JUGUETES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BEBES</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__li">
+                    <p class="nav__p">ELECTRO DE HOGAR</p>
+                    <ul class="nav__ul-ul nav__ul--overflow">
+                        <li class="nav__li-li">
+                            <p class="nav__p">PEQUEÑOS ELECTRO</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PROCESADORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BATIDORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">LICUADORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MIXERS Y MINIPIMERS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">TOSTADORAS Y SANDWICHERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PAVAS ELECTRICAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">JUEGUERAS Y EXPRIMIDORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAFETERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">FREIDORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BALANZA DE COCINA</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MAQUINA DE PASTAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">WAFLERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PANQUEQUERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">VAPORIERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">YOGURTERAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">LAVADO</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">LAVARROPAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SECARROPAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">LAVAVAJILLAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">HORNOS Y COCINAS</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">COCINAS Y CAMPANAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">HORNOS ELECTRICOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MICROODAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">COCINAS ELECTRICAS Y MULTICOCINAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">HORNOS EMPOTRABLES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ANAFES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">REFRIGERACION</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">HELADERAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">FREEZERS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAVAS Y FRIGOBARES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">CLIMATIZACION</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">AIRES ACONDICIONADOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">VENTILADORES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CALEFACCION ELECTRICAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CALEFACCION A GAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">AGUA CALIENTE</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">TERMOTANQUES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CALEFONES</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__li">
+                    <p class="nav__p">HOGAR Y TRABAJO</p>
+                    <ul class="nav__ul-ul nav__ul--overflow">
+                        <li class="nav__li-li">
+                            <p class="nav__p">DORMITORIO</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ROPA DE CAMA</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PLACARES, COMODAS, CAJONERAS Y BOTINEROS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SOMMIERS Y BASES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">COLCHONES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">RESPALDO DE CAMA</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ALMOHADAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MESAS DE LUZ</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAMAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CUNAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">COCINAS</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CUBIERTOS, VAJILLAS Y UTENSILLOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">JARRAS, TERMOS Y ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SARTENES, BIFERAS, FUENTES Y WOKS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">OLLAS, CACEROLAS Y BATERIAS DE COCINA</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BAJO MESADAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ALACENAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">VASOS, TAZAS Y CRISTALERIA</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">DESPENSEROS Y PORTAMICROONDAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MESADAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">RACKS DE COCINAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">HERRAMIENTAS</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">HERRAMIENTAS ELECTRICAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">HERRAMIENTAS MANUALES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ILUMINACION Y ELECTRICAD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">LIVING</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MESAS Y PANELES DE TV</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">RACKS, MODULARES Y COLUMNAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BIBLIOTECAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SILLONES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MESAS RATONAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ESTANTES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">JARDIN Y EXTERIOR</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MAQUINAS DE JARDIN</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MUEBLES DE EXTERIOR</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PARRILLAS Y ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PILETAS Y ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAMPING</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">GAZEBOS Y TOLDOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">LIMPIEZA</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ASPIRADORAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PLANCHADO Y TENDEDERO</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">LIMPIEZA Y CESTOS DE RESIDUOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ORGANIZADORES Y CONTENEDORES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">OFICINA</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ESCRITORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SILLAS Y SILLONES DE OFINAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">BAÑO</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">TOALLAS, TOALLONES Y BATAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">COMEDOR</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MESAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">JUEGOS DE MESA Y SILLAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">SILLAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li"><a href="#" class="nav__a">ADORNOS Y DECORACION</a></li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">MASCOTAS</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">CAMAS, CASAS Y CUCHAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS PARA MASCOTAS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__li">
+                    <p class="nav__p">DEPORTES Y MOVILIDAD</p>
+                    <ul class="nav__ul-ul nav__ul--overflow">
+                        <li class="nav__li-li">
+                            <p class="nav__p">MOVILIDAD</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BICICLETAS TRADICIONALES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">BICICLETA ELECTRICAS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MOVILIDAD INFANTIL</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MONOPATINES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PATINETAS Y HOVERBOARDS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">PATINES Y ROLLERS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">ACCESORIOS PARA VEHICULOS</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">AUTOMOVILES</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MOTOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">CARDIO Y MUSCULACION</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">MAQUINAS FITNESS</a></li>
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ACCESORIOS FITNESS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__li-li">
+                            <p class="nav__p">DEPORTES</p>
+                            <ul class="nav__ul-ul-ul nav__ul--overflow">
+                                <li class="nav__li-li-li"><a class="nav__a" href="#">ARTICULOS DEPORTIVOS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__li"><a href="#" class="nav__a"><i class="fa-regular fa-user"></i> INGRESAR</a></li>
+            </ul>
+        </nav>
+        <form action="" class="header__form">
+            <input type="text" placeholder="Buscar..." class="header__form-input">
+            <button type="submit" class="header__form-sumit"><i class="fa-solid fa-magnifying-glass header__form-button"></i></button>
+        </form>
+        <div class="header__buys header__buys--none">
+            <div class="header__buy">
+                <div class="header__buy-controls">
+                    <h4 class="header__buy-h4">TU CARRITO</h4>
+                    <p class="header__buy-p"><i class="fa-sharp fa-solid fa-xmark"></i></p>
+                </div>
+                <div class="header__myBuys">
+                    <p class="header__buyMessanger">Tu carrito se encuentra vacío.</p>
+                    <div class="header__buyLoading">
+                        <div class="header__loading">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="header__pays">
+                    <button class="header__button-buy">ir Compras</button>
+                    <p class="header__total">total $ <span class="header_buy-total">0</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="sliders">
+            <div class="sliders__move">
+                <div class="sliders__action">
+                    <div class="sliders__slide">
+    
+                    </div>
+                    <div class="sliders__slide sliders__slide--img-1">
+    
+                    </div>
+                    <div class="sliders__slide sliders__slide--img-2">
+    
+                    </div>
+                </div>
+                <div class="sliders__controls">
+                    <p class="sliders__left"><i class="fa-solid fa-angle-left"></i></p>
+                    <p class="sliders__right"><i class="fa-solid fa-angle-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="marketing">
+            <a href="#" class="marketing__a">
+                <div class="marketing__slider">
+                    
+                </div>
+            </a>
+        </div>
+        <div class="product">
+            <div class="product__sliders">
+                <div class="product__varios">
+                        
+                </div>
+                <div class="product__direction">
+                    <p class="product__left"><i class="fa-solid fa-angle-left"></i></p>
+                    <p class="product__right"><i class="fa-solid fa-angle-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__sliders">
+                <div class="product__celular">
+                        
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="./product.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
